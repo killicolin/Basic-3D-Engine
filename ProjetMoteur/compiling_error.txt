@@ -1,0 +1,4 @@
+/tmp/ccaAgeT6.o: In function `main':
+main.cpp:(.text+0x44): undefined reference to `Vector4f::Vector4f(double, double, double, double)'
+main.cpp:(.text+0x79): undefined reference to `operator<<(std::ostream&, Vector)'
+collect2: error: ld returned 1 exit status

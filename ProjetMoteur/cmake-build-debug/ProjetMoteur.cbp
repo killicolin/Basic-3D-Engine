@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ProjetMoteur"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProjetMoteur">
+				<Option output="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/cmake-build-debug/ProjetMoteur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjetMoteur"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProjetMoteur/fast">
+				<Option output="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/cmake-build-debug/ProjetMoteur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjetMoteur/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eisti/Documents/ING3/MATH\ 3D/Cours\ 1/ProjetMoteur/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/AngleEuler.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/AngleEuler.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordSpherique.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordSpherique.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordinateSystem.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordinateSystem.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Cylinder.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Cylinder.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Light.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Light.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC3.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC3.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC4.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC4.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Plan.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Plan.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Quaternion.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Quaternion.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/RectangularPrism.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/RectangularPrism.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Sphere.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Sphere.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Triangle.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Triangle.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector3f.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector3f.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector4f.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector4f.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/complexSurface.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/complexSurface.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/interfaceCreationObjet.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/interfaceCreationObjet.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/main.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/openglFunction.cpp">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/openglFunction.h">
+			<Option target="ProjetMoteur"/>
+		</Unit>
+		<Unit filename="/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,150 @@
+README :
+
+lancer l'executable à partir d'une console pour pouvoir ajouter des objets à la scène.
+
+déplacer la caméra:
+'Z' et 'S' pour orienter la caméra selon l'axe X
+'Q' et 'D' pour orienter la caméra selon l'axe Y
+
+'A' et 'E' pour déplacer la caméra selon l'axe Z
+
+Déplacer l'objet:
+Clic droit de la souris, l'objet selectionné est déplacé sur le plan de la vue
+(maintenir clic droit et déplacer la souris)
+
+Orienter l'objet:
+Clic gauche de la souris
+(maintenir clic gauche et déplacer la souris)
+
+Scale l'objet:
+Roulette de la souris
+
+Mode de couleur et de lumière:
+'0' affiche la couleur des objets sans effet de lumière
+'1' affiche une couleur défini par la normal des faces sans effet de lumière
+'2' affiche l'objet sous illumination de Gouraud
+'3' affiche l'objet sous illumination de Phong
+
+Filtre sur ces affichages:
+'4' Aucun filtre
+'5' filtre en effet de gris
+'6' filtre flou
+'7' filtre pixelisation
+'8' filtre sobel
+
+'F':
+basculer de 'forme pleine' à 'fil de fer'
+
+'P':
+basculer de projection perpective à orthographique.
+
+'C':
+pour créer une nouvelle forme:
+choix entre :
+CUBE - PRISM - CYLINDRE - PLAN - TRIANGLE - SPHERE - AUTRE
+avec AUTRE pour charger une surface complexe d'un fichier obj 
+Tous les objets sont centré en 0 0 0 à la création (sauf TRIANGLE) et peuvent être déplacé à la souris.
+Lors du processus de création, la scène est bloqué jusqu'a la finalisation de la création.
+(exemple de création en fin de readme)
+
+
+'+' et '-':
+Permet de changer l'objet selectionné.
+
+exemple création cube:
+Que Voulez vous créer ? (cf README)
+cube
+Choisissez Dimension du cube 
+2
+Choisissez la couleur RGB compris entre 0 et 1 sous ce format: 
+R G B
+1 0.2 0.1
+
+exemple création prism:
+Que Voulez vous créer ? (cf README)
+prism
+Choisissez Dimension du prism en X
+0.2
+Choisissez Dimension du prism en Y
+2
+Choisissez Dimension du prism en Z
+0.1
+Choisissez la couleur RGB compris entre 0 et 1 sous ce format: 
+R G B
+0 1. 0.3
+
+exemple création cylindre:
+Que Voulez vous créer ? (cf README)
+CYLINDRE
+Haut du cylindre 
+Choisissez la couleur RGB compris entre 0 et 1 sous ce format: 
+R G B
+1 0 0
+Bas du cylindre 
+Choisissez la couleur RGB compris entre 0 et 1 sous ce format: 
+R G B
+0 1 0
+Tour du cylindre 
+Choisissez la couleur RGB compris entre 0 et 1 sous ce format: 
+R G B
+0 0 1
+Choisissez un rayon: 
+0.2
+Choisissez la hauteur du cylindre 
+1
+Choisissez une précision de rendu en valeur entière (à partir de 32 le rendu commence à être propre): 
+32
+
+exemple création plan:
+Que Voulez vous créer ? (cf README)
+PLAN
+Choisissez la couleur RGB compris entre 0 et 1 sous ce format: 
+R G B
+0.2 0.5 0.3
+la normale du plan
+Choisissez un vecteur Normal XYZ sous ce format: 
+X Y Z
+0 1 0
+Choisissez Dimension du plan en longueur
+4
+Choisissez Dimension du plan en largeur
+4
+
+exemple création triangle:
+Que Voulez vous créer ? (cf README)
+triangle
+point 1: 
+Choisissez une position XYZ sous ce format: 
+X Y Z
+1 -0.5 0
+point 2:
+Choisissez une position XYZ sous ce format: 
+X Y Z
+-1 -0.5 0
+point 3:
+Choisissez une position XYZ sous ce format: 
+X Y Z
+0 0.5 0
+Choisissez la couleur RGB compris entre 0 et 1 sous ce format: 
+R G B
+1 0 0
+
+exemple création sphere:
+Que Voulez vous créer ? (cf README)
+sphere
+Choisissez une précision de rendu en valeur entière (à partir de 32 le rendu commence à être propre): 
+28
+Choisissez un rayon: 
+0.8
+Choisissez la couleur RGB compris entre 0 et 1 sous ce format: 
+R G B
+0 1 0
+
+exemple création autre:
+Que Voulez vous créer ? (cf README)
+autre
+Nom du fichier: (exemple: suzanne.obj)
+suzanne.obj
+Choisissez la couleur RGB compris entre 0 et 1 sous ce format: 
+R G B
+0.2 0.2 1

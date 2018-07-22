@@ -1,0 +1,280 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/AngleEuler.cpp
+functional
+-
+AngleEuler.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/AngleEuler.h
+MatrixC3.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC3.h
+math.h
+-
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/AngleEuler.h
+MatrixC3.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC3.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordSpherique.cpp
+math.h
+-
+CoordSpherique.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordSpherique.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordSpherique.h
+Vector3f.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector3f.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordinateSystem.cpp
+CoordinateSystem.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordinateSystem.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordinateSystem.h
+ObjectRender.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Cylinder.cpp
+Cylinder.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Cylinder.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Cylinder.h
+ObjectRender.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Light.cpp
+Light.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Light.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Light.h
+Vector4f.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector4f.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC.cpp
+cmath
+-
+iostream
+-
+stdexcept
+-
+MatrixC.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC.h
+MatrixC3.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC3.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC.h
+Vector.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC3.cpp
+cmath
+-
+MatrixC3.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC3.h
+iostream
+-
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC3.h
+MatrixC.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC.h
+Quaternion.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Quaternion.h
+AngleEuler.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/AngleEuler.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC4.cpp
+MatrixC4.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC4.h
+math.h
+-
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC4.h
+MatrixC3.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC3.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.cpp
+ObjectRender.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.h
+Light.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Light.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.h
+openglFunction.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/openglFunction.h
+Vector4f.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector4f.h
+MatrixC4.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC4.h
+Light.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Light.h
+vector
+-
+math.h
+-
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Plan.cpp
+Plan.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Plan.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Plan.h
+ObjectRender.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Quaternion.cpp
+Quaternion.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Quaternion.h
+math.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/math.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Quaternion.h
+Vector3f.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector3f.h
+MatrixC3.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC3.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/RectangularPrism.cpp
+RectangularPrism.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/RectangularPrism.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/RectangularPrism.h
+ObjectRender.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Sphere.cpp
+Sphere.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Sphere.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Sphere.h
+ObjectRender.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Triangle.cpp
+Triangle.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Triangle.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Triangle.h
+ObjectRender.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector.cpp
+cmath
+-
+iostream
+-
+stdexcept
+-
+Vector.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector.h
+iostream
+-
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector3f.cpp
+Vector3f.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector3f.h
+math.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/math.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector3f.h
+Vector.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector.h
+CoordSpherique.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordSpherique.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector4f.cpp
+Vector4f.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector4f.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector4f.h
+Vector3f.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector3f.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/complexSurface.cpp
+complexSurface.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/complexSurface.h
+fstream
+-
+sstream
+-
+iostream
+-
+string
+-
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/complexSurface.h
+ObjectRender.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/interfaceCreationObjet.cpp
+interfaceCreationObjet.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/interfaceCreationObjet.h
+RectangularPrism.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/RectangularPrism.h
+Cylinder.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Cylinder.h
+Sphere.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Sphere.h
+Plan.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Plan.h
+Triangle.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Triangle.h
+complexSurface.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/complexSurface.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/interfaceCreationObjet.h
+Vector4f.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector4f.h
+ObjectRender.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/ObjectRender.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/main.cpp
+iostream
+-
+openglFunction.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/openglFunction.h
+vector
+-
+Vector4f.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Vector4f.h
+MatrixC4.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/MatrixC4.h
+RectangularPrism.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/RectangularPrism.h
+Cylinder.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Cylinder.h
+Triangle.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Triangle.h
+CoordinateSystem.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/CoordinateSystem.h
+complexSurface.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/complexSurface.h
+math.h
+-
+Sphere.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Sphere.h
+Plan.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Plan.h
+Light.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/Light.h
+interfaceCreationObjet.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/interfaceCreationObjet.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/openglFunction.cpp
+iostream
+-
+openglFunction.h
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/openglFunction.h
+
+/home/eisti/Documents/ING3/MATH 3D/Cours 1/ProjetMoteur/src/openglFunction.h
+GL/glew.h
+-
+GL/glut.h
+-
+GL/gl.h
+-
+
