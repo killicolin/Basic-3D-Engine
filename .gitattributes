@@ -1,5 +1,6 @@
 Doc/* linguist-vendored
 ProjetMoteur/cmake-build-debug/* linguist-vendored
 ProjetMoteur/.idea/* linguist-vendored
+/ProjetMoteur/src/packages/* linguist-vendored
 linguist-vendored=false
 
