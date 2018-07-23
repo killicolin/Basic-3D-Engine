@@ -1,6 +1,10 @@
 Doc/* linguist-vendored
 ProjetMoteur/cmake-build-debug/* linguist-vendored
 ProjetMoteur/.idea/* linguist-vendored
-/ProjetMoteur/src/packages/* linguist-vendored
+ProjetMoteur/src/packages/glew.1.9.0.1/build/native/include/GL/* linguist-vendored
+ProjetMoteur/src/packages/nupengl.core.0.1.0.1/build/native/include/GL/* linguist-vendored
+ProjetMoteur/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/* linguist-vendored
+ProjetMoteur/cmake-build-debug/CMakeFiles/* linguist-vendored
+
 linguist-vendored=false
 
