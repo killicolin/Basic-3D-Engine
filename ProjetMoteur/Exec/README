@@ -1,0 +1,150 @@
+#Command:
+launch the executable from a console to add objects to the scene.
+
+move the camera:
+'Z' and 'S' to orient the camera along the X axis
+'Q' and 'D' to orient the camera along the Y axis
+
+'A' and 'E' to move the camera along the Z axis
+
+Move the object:
+Right click
+(hold right click and move mouse)
+
+Orient the object:
+Left mouse click
+(hold left click and move mouse)
+
+Scale the object:
+Mouse wheel
+
+Color and light mode:
+'0' displays the color of objects without light effect
+'1' displays a color defined by the normal of the faces without light effect
+'2' displays the object with Gouraud's illumination
+'3' displays the object with Phong's illumination
+
+Filters mode:
+'4' No filter
+'5' grey filter effect
+'6' blur filter
+'7' pixelization filter
+'8' sobel filter
+
+`'F':
+switch from 'full shape' to 'wire'.
+
+'P':
+switch from perspective projection to orthographic projection.
+
+'C':
+to create a new shape:
+choice between :
+CUBE - PRISM - CYLINDER - PLANE - TRIANGLE - SPHERE - OTHER
+with OTHER to load a complex surface from an .obj file 
+All objects are centered in 0 0 0 at creation (except TRIANGLE) and can be moved with the mouse.
+During the creation process, the scene is blocked until the creation is finalized.
+(example of creation at the end of readme)
+
+'+'  and '-':
+Used to change the selected object.
+
+#cube creation example:
+What do you want to create? (cf README)
+cube
+Choose Cube Size 
+2
+Choose the RGB color from 0 to 1 in this format: 
+R G B
+1 0.2 0.1
+
+#prism creation example:
+What do you want to create? (cf README)
+prism
+Choose Prism size in X
+0.2
+Choose Prism size in Y
+2
+Choose Prism size in Z
+0.1
+Choose the RGB color from 0 to 1 in this format: 
+R G B
+0 1. 0.3
+
+#cylinder creation example:
+What do you want to create? (cf README)
+CYLINDER
+Top of cylinder 
+Choose the RGB color from 0 to 1 in this format: 
+R G B
+1 0 0
+Bottom of cylinder 
+Choose the RGB color from 0 to 1 in this format: 
+R G B
+0 1 0
+Cylinder turn 
+Choose the RGB color from 0 to 1 in this format: 
+R G B
+0 0 1
+Choose a radius: 
+0.2
+Choose cylinder height 
+1
+Choose a rendering accuracy (integer) (from 32 the rendering starts to be clean): 
+32
+
+#plan creation example:
+What do you want to create? (cf README)
+PLAN
+Choose the RGB color from 0 to 1 in this format: 
+R G B
+0.2 0.5 0.3
+the normal of the plan
+Choose a Normal XYZ vector in this format: 
+X Y Z
+0 1 0
+Choose Plan dimension in length
+4
+Choose Plan dimension in width
+4
+
+#triangle creation example:
+What do you want to create? (cf README)
+triangle
+point 1: 
+Choose an XYZ position in this format: 
+X Y Z
+1 -0.5 0
+point 2:
+Choose an XYZ position in this format: 
+X Y Z
+-1 -0.5 0
+point 3:
+Choose an XYZ position in this format: 
+X Y Z
+0 0.5 0
+Choose the RGB color from 0 to 1 in this format: 
+R G B
+1 0 0
+
+#sphere creation example:
+What do you want to create? (cf README)
+sphere
+Choose a rendering accuracy (integer) (from 32 the rendering starts to be clean): 
+28
+Choose a radius: 
+0.8
+Choose the RGB color from 0 to 1 in this format: 
+R G B
+0 1 0
+
+#other creation example:
+What do you want to create? (cf README)
+other
+File name: (example: suzanne.obj)
+suzanne.obj
+Choose the RGB color from 0 to 1 in this format: 
+R G B
+0.2 0.2 1
+
+

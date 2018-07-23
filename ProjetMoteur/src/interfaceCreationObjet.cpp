@@ -9,7 +9,7 @@
 
 Vector4f saisiCouleur(){
     float R,G,B;
-    cout << "Choisissez la couleur RGB compris entre 0 et 1 sous ce format: " << endl;
+    cout << "Choose the RGB color from 0 to 1 in this format:  " << endl;
     cout << "R G B"<< endl;
     cin >> R >> G >> B;
     return Vector4f(R,G,B,1.0);
@@ -17,7 +17,7 @@ Vector4f saisiCouleur(){
 
 Vector4f saisiPosition(){
     float X,Y,Z;
-    cout << "Choisissez une position XYZ sous ce format: " << endl;
+    cout << "Choose an XYZ position in this format: " << endl;
     cout << "X Y Z"<< endl;
     cin >> X >> Y >> Z;
     return Vector4f(X,Y,Z,1.0);
@@ -25,7 +25,7 @@ Vector4f saisiPosition(){
 
 Vector3f saisiNormal(){
     float X,Y,Z;
-    cout << "Choisissez un vecteur Normal XYZ sous ce format: " << endl;
+    cout << "Choose a Normal XYZ vector in this format:  " << endl;
     cout << "X Y Z"<< endl;
     cin >> X >> Y >> Z;
     Vector3f res=Vector3f(X,Y,Z);
@@ -35,46 +35,46 @@ Vector3f saisiNormal(){
 
 float saisiRayon(){
     float R;
-    cout << "Choisissez un rayon: " << endl;
+    cout << "Choose a radius: " << endl;
     cin >> R;
     return R;
 }
 
 int saisiPrecision(){
     int P;
-    cout << "Choisissez une précision de rendu en valeur entière (à partir de 32 le rendu commence à être propre): " << endl;
+    cout << "Choose a rendering accuracy (integer) (from 32 the rendering starts to be clean):  " << endl;
     cin >> P;
     return P;
 }
 
 ObjectRender creationCube(){
     float D;
-    cout << "Choisissez Dimension du cube " << endl;
+    cout << "Choose Cube Size " << endl;
     cin >> D;
     RectangularPrism t=RectangularPrism(Vector4f(0.0,0.0,0.0,1.0),saisiCouleur(),D,D,D);
     return t;
 }
 ObjectRender creationPrism(){
     float Dx,Dy,Dz;
-    cout << "Choisissez Dimension du prism en X" << endl;
+    cout << "Choose Prism size in X" << endl;
     cin >> Dx;
-    cout << "Choisissez Dimension du prism en Y" << endl;
+    cout << "Choose Prism size in Y" << endl;
     cin >> Dy;
-    cout << "Choisissez Dimension du prism en Z" << endl;
+    cout << "Choose Prism size in Z" << endl;
     cin >> Dz;
     RectangularPrism t=RectangularPrism(Vector4f(0.0,0.0,0.0,1.0),saisiCouleur(),Dx,Dy,Dz);
     return t;
 }
 ObjectRender creationCylinder(){
-    cout << "Haut du cylindre " << endl;
+    cout << "Top of cylinder " << endl;
     Vector4f c1=saisiCouleur();
-    cout << "Bas du cylindre " << endl;
+    cout << "Bottom of cylinder " << endl;
     Vector4f c2=saisiCouleur();
-    cout << "Tour du cylindre " << endl;
+    cout << "Cylinder turn " << endl;
     Vector4f c3=saisiCouleur();
     float r=saisiRayon();
     float h;
-    cout << "Choisissez la hauteur du cylindre " << endl;
+    cout << "Choose cylinder height " << endl;
     cin >> h;
     Cylinder cy=Cylinder(Vector4f(0.0,0.0,0.0,1.0),c3,c2,c1,r,h,saisiPrecision());
     return cy;
@@ -85,12 +85,12 @@ ObjectRender creationSphere(){
 }
 ObjectRender creationPlan(){
     Vector4f c1=saisiCouleur();
-    cout << "la normale du plan" << endl;
+    cout << "the normal of the plan" << endl;
     Vector3f n1=saisiNormal();
     float Dx,Dy;
-    cout << "Choisissez Dimension du plan en longueur" << endl;
+    cout << "Choose Plan dimension in length" << endl;
     cin >> Dx;
-    cout << "Choisissez Dimension du plan en largeur" << endl;
+    cout << "Choose Plan dimension in width" << endl;
     cin >> Dy;
     Plan pl=Plan(Vector4f(0.0,0.0,0.0,1.0),c1,n1,Dx,Dy);
     return pl;
@@ -109,7 +109,7 @@ ObjectRender creationTriangle(){
 
 ObjectRender creationAutre(){
     char forme[1000];
-    cout << "Nom du fichier: (exemple: suzanne.obj)" << endl;
+    cout << "File name: (example: suzanne.obj)" << endl;
     cin >> forme;
     ComplexSurface cs= ComplexSurface(Vector4f(0.0,0.0,0.0,1.0),saisiCouleur(),forme);
     return cs;

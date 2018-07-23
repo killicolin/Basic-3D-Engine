@@ -92,7 +92,7 @@ vector<ObjectRender> objetList;
 
 void createObject(){
     string forme;
-    cout << "Que Voulez vous créer ? (cf README)" << endl;
+    cout << "What do you want to create? (cf README)" << endl;
 	cin>>forme;
     for(unsigned int i = 0; i < forme.size(); i++) {
         forme.at(i) = toupper(forme.at(i));
