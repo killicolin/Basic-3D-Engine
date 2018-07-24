@@ -101,7 +101,7 @@ void createObject(){
         objetList.push_back(creationCube());
     else if(forme=="PRISM")
         objetList.push_back(creationPrism());
-    else if(forme=="CYLINDRE")
+    else if(forme=="CYLINDER")
         objetList.push_back(creationCylinder());
     else if(forme=="PLAN")
         objetList.push_back(creationPlan());
@@ -109,10 +109,10 @@ void createObject(){
         objetList.push_back(creationTriangle());
     else if(forme=="SPHERE")
         objetList.push_back(creationSphere());
-    else if(forme=="AUTRE")
+    else if(forme=="OTHER")
         objetList.push_back(creationAutre());
     else
-        cout << "Commande ignoré"<< endl;
+        cout << "Unknow Command"<< endl;
 }
 
 MatrixC4 projection=MatrixC4();

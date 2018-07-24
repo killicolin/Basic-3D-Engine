@@ -13,7 +13,7 @@ You can find a Doxygen documentation there : /Doc/html/
 
 # Demo:
 
-coming soon
+![demo](ressources/demogif.gif)
 
 
 
